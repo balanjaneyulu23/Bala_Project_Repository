@@ -79,7 +79,7 @@ public class SingleLinkedList {
 	
 	
 	//Traverses Linked List
-	void traverseLinkedList() {
+	public void traverseLinkedList() {
 		if (existsLinkedList()) {
 			SingleNode tempNode = head;
 			for (int i = 0; i < getSize(); i++) {
